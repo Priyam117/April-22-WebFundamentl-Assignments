@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, limegreen, coral, limegreen);
+}
+
+.navbar {
+    height: 11vh;
+    width: 100vw;
+    background-color: #000000;
+    color: cornsilk;
+}
+
+.left {
+    float: left;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
+.right {
+    float: right;
+    margin-right: 20%;
+    line-height: 70px;
+}
+
+span a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.middle {
+    width: 100vw;
+    height: 260vh;
+}
+
+.table1 {
+    text-align: center;
+    margin-left: 27%;
+    height: 130px;
+    width: 40%;
+}
+
+.table2 {
+    margin: 10px;
+    height: 150px;
+    width: 90%;
+    margin-left: 90px;
+}
+
+.table2 tr td img {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 310px;
+    width: 500px;
+}
+
+.div1 {
+    height: 35px;
+    width: 460px;
+    background: linear-gradient(45deg, red, black);
+    border-radius: 60%;
+    margin-left: 33%;
+    margin-top: 18px;
+}
+
+.div1 h2 {
+    color: white;
+}
+
+.table3 {
+    height: 150px;
+    width: 100%;
+}
+
+.table3 tr td img {
+    height: 210px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.div2 {
+    height: 50px;
+    width: 100%;
+}
+
+.div2 span a {
+    padding: 110px;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.div3 {
+    height: 35px;
+    width: 460px;
+    background: linear-gradient(45deg, red, black);
+    border-radius: 60%;
+    margin-left: 33%;
+    margin-top: 18px;
+}
+
+.div3 h2 {
+    color: white;
+}
+
+.table4 tr td img {
+    height: 210px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.div4 span a {
+    padding: 130px;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 140px;
+    width: 100%;
+    background-color: #251b1b;
+}
+
+.table5 tr td img {
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin-left: 200px;
+    background-color: none;
+}
