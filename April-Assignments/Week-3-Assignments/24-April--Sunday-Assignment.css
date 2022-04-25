@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://i.pinimg.com/originals/61/79/ba/6179bac03a8f13857c55d90e3ceaf063.jpg);
+}
+
+.div1 {
+    height: 230px;
+    width: 470px;
+    background-image: url(https://i.ytimg.com/vi/CvltMRiVNME/maxresdefault.jpg);
+    margin: 80px auto;
+}
+
+#img1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 42%;
+    margin-top: 15px;
+}
+
+.div1 p {
+    font-family: 'Square Peg', cursive;
+    text-align: center;
+    margin: 12px auto;
+    height: 30px;
+    width: 70%;
+}
+
+#middle {
+    height: 270px;
+    width: 470px;
+    margin: 80px auto;
+}
+
+.div2 {
+    height: 90px;
+    width: 95.8%;
+    background-image: url(https://i.ytimg.com/vi/CvltMRiVNME/maxresdefault.jpg);
+    padding: 10px;
+}
+
+#p1 {
+    text-align: center;
+}
+
+.div3 {
+    height: 140px;
+    width: 100%;
+    background-color: #ffffff;
+}
