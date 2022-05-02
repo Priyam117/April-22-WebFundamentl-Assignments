@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: red;
+    height: 380px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.div1 {
+    height: 80px;
+    width: 200px;
+    background-color: green;
+}
+
+.div2 {
+    height: 80px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+.div3 {
+    height: 80px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
