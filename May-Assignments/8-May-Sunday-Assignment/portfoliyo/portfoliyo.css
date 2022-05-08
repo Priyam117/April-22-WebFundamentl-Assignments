@@ -1,0 +1,48 @@
+.nav{
+    margin-top: 0px;
+    height: 12vh;
+    width: 100vw;
+    background-color: salmon;
+}
+.nav_left{
+    color: cornsilk;
+   height: 60px;
+    width: 30%; 
+    border: 0px solid red; 
+    float: left;  
+    text-align: center;
+    
+
+}
+
+.nav_right
+{
+    color: cornsilk;
+    height: 70px;
+    width: 58%;
+    border: 0px solid green;       
+    float: right;  
+    text-align: center;
+    line-height: 60px;
+}
+.nav_right span{
+  padding: 50px;
+}
+.main img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.footer{
+    margin-top: 60px;
+    width: 100vw;
+    height: 20vh;
+    background-color: salmon;
+}
+.footer h2{
+    line-height: 120px;
+    text-align: center;
+
+}
