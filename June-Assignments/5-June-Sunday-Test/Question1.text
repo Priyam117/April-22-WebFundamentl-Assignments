@@ -1,0 +1,2 @@
+ In how many types can we create functions? State the difference between those types by giving examples 1. A Function as a Statement function addTwoNumber(num1,num2){ let sum = num1+ num2; return sum; } let res = addTwoNumber(7,8); console.log(res); 2.
+A Function as an Expression let add = function addTwoNumber(num1,num2){ let sum = num1+ num2; return sum; } let res = add(8,9); console.log(res); 3.An Arrow Function var add = (num1, num2)=> num1+num2; let res = add(5,2); console.log(res);
