@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+
+    <style>
+        main {
+            height: 40vh;
+            width: 40vw;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            text-align: center;
+            margin: 100px auto;
+            padding-top: 20px;
+        }
+        
+        button {
+            padding: 5px;
+            margin: 5px;
+            margin-top: 80px;
+        }
+    </style>
+    <script>
+        function changeGM() {
+            var btn1Ref = document.getElementById("btn1");
+            var h1Ref = document.getElementById("href");
+            h1Ref.innerText = "Good Morning , Geekster";
+            h1Ref.style.color = "navy"
+        }
+
+        function changeGE() {
+            var btn2Ref = document.getElementById("btn2");
+            var h1Ref = document.getElementById("href");
+            h1Ref.innerText = "Good Evening , Geekster"
+            h1Ref.style.color = "red"
+        }
+
+        function changeGN() {
+            var btn3Ref = document.getElementById("btn3");
+            var h1Ref = document.getElementById("href");
+            h1Ref.innerText = "Good Night , Geekster";
+            h1Ref.style.color = "purple"
+
+        }
+    </script>
+</head>
+
+<body>
+    <main id="div1">
+        <h1 id="href">Geekster</h1><br>
+        <button id="btn1" onclick="changeGM()">Good Morning</button>
+        <button id="btn2" onclick="changeGE()">Good Evening</button>
+        <button id="btn3" onclick="changeGN()">Good Night </button>
+    </main>
+</body>
+
+</html>

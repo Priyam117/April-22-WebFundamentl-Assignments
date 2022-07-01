@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script>
+        function showHidePass() {
+            var inputreference = document.getElementById("i1");
+
+            var buttonreference = document.getElementById("btn");
+            if (inputreference.type === "password") {
+                buttonreference.innerHTML = "hide Password";
+                inputreference.type = "text";
+            } else {
+                buttonreference.innerHTML = "show password"
+                inputreference.type = "password"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Show/Hide Password</h1>
+    <input type="password" id="i1" />
+    <button onclick="showHidePass()" id="btn">Show Password</button>
+</body>
+
+</html>

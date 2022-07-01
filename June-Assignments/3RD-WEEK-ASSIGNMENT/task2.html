@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <style>
+        main {
+            height: 60vh;
+            width: 55vw;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: 100px auto;
+        }
+        
+        img {
+            height: 200px;
+            width: 200px;
+            margin: 60px auto;
+            margin-left: 30%;
+        }
+        
+        button {
+            text-align: center;
+            padding: 5px;
+            margin-left: 190px;
+        }
+    </style>
+    <script>
+        function changeImgToFamily() {
+            var imgreference = document.getElementById("img1");
+            imgreference.src = "https://images.pexels.com/photos/745045/pexels-photo-745045.jpeg?auto=compress&cs=tinysrgb&w=600";
+
+        }
+
+        function chanfeImgToFamily() {
+            var imgreference2 = document.getElementById("img1");
+            imgreference2.src = "https://images.pexels.com/photos/39691/family-pier-man-woman-39691.jpeg?auto=compress&cs=tinysrgb&w=600";
+
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <img id="img1" src="https://images.pexels.com/photos/1364756/pexels-photo-1364756.jpeg?auto=compress&cs=tinysrgb&w=600" id="img1" />
+        <br>
+        <button onclick="chanfeImgToFamily()">Family</button>
+        <button onclick="changeImgToFamily()">Friends</button>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script>
+        function getData() {
+            var inputRef = document.getElementById("i1");
+            var h2Ref = document.getElementById("h2ref");
+
+            h2Ref.innerText = inputRef.value;
+            inputRef.value = ""
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <input id="i1" type="text" placeholder="enter text" />
+        <button onclick="getData()">Submit</button>
+        <h2 id="h2ref">no data</h2>
+    </div>
+</body>
+
+</html>
