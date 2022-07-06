@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>DOM Manipulation</title>
+    <style>
+        div {
+            width: 600px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            text-align: center;
+            margin: 100px auto;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        var olRef = document.createElement("ol");
+
+        function fnCreateElement() {
+            var inputRef = document.getElementById("i1");
+            var divRef = document.querySelector("div");
+            var inputValue = inputRef.value;
+
+            var liRef = document.createElement("li");
+
+            olRef.appendChild(liRef);
+            liRef.innerText = inputValue;
+
+            divRef.appendChild(olRef);
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="i1" />
+        <button onclick="fnCreateElement()">Submit</button>
+    </div>
+</body>
+
+</html>
