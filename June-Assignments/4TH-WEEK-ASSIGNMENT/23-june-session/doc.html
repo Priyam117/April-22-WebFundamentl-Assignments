@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script>
+        function displayDocumentObject() {
+            var object = {
+                name: "subham",
+                city: "satna",
+                phone: 9981514623
+            }
+
+            for (var property in object) {
+                document.write(property + "   " + object[property]);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Document</h2>
+    <button onclick="displayDocumentObject()">show</button>
+</body>
+
+</html>
