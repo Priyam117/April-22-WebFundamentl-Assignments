@@ -6,6 +6,7 @@ function fn() {
         console.log(a);
     }
     console.log(a);
+    console.log(b)
 
     function fn1() {
         let c = 23; // it can be access only within block scope
