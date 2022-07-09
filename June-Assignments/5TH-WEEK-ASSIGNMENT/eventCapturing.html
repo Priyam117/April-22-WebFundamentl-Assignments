@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Event Capturing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        div {
+            border: 1px solid black;
+            text-align: center;
+            height: 350px;
+            padding-top: 70px;
+        }
+        
+        p {
+            border: 1px solid black;
+            text-align: center;
+            padding: 50px;
+        }
+        
+        a {
+            border: 1px solid black;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div">
+        <p id="p">
+            <a id="a" href="#">Click me</a>
+        </p>
+    </div>
+
+    <script>
+        var divRef = document.getElementById("div");
+        var pRef = document.getElementById("p");
+        var aRef = document.getElementById("a");
+
+        divRef.addEventListener('click', showDiv, true);
+        pRef.addEventListener('click', showP, true);
+        aRef.addEventListener('click', showA, true);
+
+
+        function showDiv(event) {
+            alert("this is Div");
+        }
+
+        function showP(event) {
+            alert("this is p");
+        }
+
+        function showA(event) {
+            alert("this is a");
+        }
+    </script>
+</body>
+
+</html>

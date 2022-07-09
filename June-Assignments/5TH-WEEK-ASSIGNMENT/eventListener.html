@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2>About Us</h2>
+        <p>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia pariatur quam optio quisquam accusantium id illo esse reprehenderit suscipit quod ab error, harum autem nulla distinctio tenetur. Iure quis quaerat neque modi impedit incidunt
+            veniam natus est minima nesciunt amet laudantium recusandae, doloremque harum? Molestiae sapiente veritatis quisquam optio. Molestiae quia, magni quidem esse quis dolor debitis vel ut dolorum! ipsum dolor sit amet consectetur adipisicing elit.
+            Ullam nemo dolore molestiae placeat, pariatur modi animi at voluptate, explicabo debitis velit ipsa necessitatibus excepturi delectus rem corporis, neque voluptatum nihil!</p>
+        <button id="btn">Confirm</button>
+    </div>
+    <script>
+        let btnRef = document.getElementById("btn");
+        let pRef = document.querySelector('p')
+
+
+        btnRef.addEventListener('click', showConfirm);
+        pRef.addEventListener('click', showAlert);
+
+
+
+        function showConfirm() {
+            alert("confirmed");
+        }
+
+        function showAlert() {
+            alert("Read description first then confirm");
+        }
+    </script>
+</body>
+
+</html>

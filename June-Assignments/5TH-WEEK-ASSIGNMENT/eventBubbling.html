@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 100 auto;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            margin: 200px;
+            border: 1px solid black;
+        }
+        
+        p {
+            border: 1px solid black;
+        }
+        
+        a {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div">
+        <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, animi esse adipisci voluptas natus, repudiandae atque, error earum delectus magni qui. Commodi tempore vitae at corrupti beatae repudiandae nobis maiores iusto, est eaque sed
+            perferendis, id consequatur inventore. Eum fugit autem numquam facere <a id="p" href="#" id="a"> amet odio illo magni obcaecati repellat, quae eveniet dicta sed quibusdam dolor</a> consequatur enim, rem at illum? Rem at similique, ratione
+            minus eveniet necessitatibus et aliquid maxime earum magni dolores est exercitationem consequatur saepe fuga esse dolorum!</p>
+    </div>
+    <script>
+        var divRef = document.getElementById('div');
+        var pRef = document.getElementById('p');
+        var aRef = document.getElementById('a');
+
+        divRef.addEventListener("click", showDiv, false); // third parameter is usecapture bydefault it value is false 
+        pRef.addEventListener("click", showP, false);
+        aRef.addEventListener("click", showA, false);
+
+
+
+        function showDiv() {
+            alert("This is Div");
+        }
+
+        function showP() {
+            alert("This is P");
+            event.stopPropagation(); // for stopping the event propagation
+        }
+
+        function showA(event) {
+            alert("This is A");
+
+        }
+    </script>
+</body>
+
+</html>
