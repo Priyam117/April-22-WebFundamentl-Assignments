@@ -1,0 +1,35 @@
+<!-- there are a div inside another div. Try to adjust a div in absolute in center using positioning  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            height: 400px;
+            width: 400px;
+            background-color: rosybrown;
+            margin: 140px auto;
+        }
+        
+        .child {
+            height: 200px;
+            width: 220px;
+            background-color: rgb(164, 87, 87);
+            position: relative;
+            top: 25%;
+            left: 23%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">child</div>
+    </div>
+</body>
+
+</html>
